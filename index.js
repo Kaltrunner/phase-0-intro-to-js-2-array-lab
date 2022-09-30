@@ -1,1 +1,115 @@
 // Write your solution here!
+
+// const cats = (["Milo", "Otis", "Garfield"]);
+
+// function destructivelyAppendCat() {
+//     cats.push("Ralph");
+// };
+
+// function destructivelyPrependCat() {
+//     cats.unshift("Bob");
+// };
+
+// function destructivelyRemoveLastCat() {
+//     cats.pop();
+// }
+
+// function destructivelyRemoveFirstCat() {
+//     cats.shift();
+// };
+
+// function appendCat() {
+//     let newCats = ([...cats, "Broom"]);
+//     return newCats;
+// };
+
+// function prependCat() {
+//     let newCats = (["Arnold", ...cats]);
+//     return newCats
+// }
+
+// function removeLastCat() {
+//     let newCats = (cats.slice(0, cats.length -1));
+//     return newCats;
+// }
+
+// function removeFirstCat() {
+//     let newCats = (cats.slice(1));
+//     return newCats;
+// }
+
+
+
+
+
+// const cats = ["Milo", "Otis", "Garfield"];
+
+// function  destructivelyAppendCat() {
+//     cats.push('Ralph')
+// }
+
+// function destructivelyPrependCat() {
+//     cats.unshift('Bob')
+// }
+
+// function  destructivelyRemoveLastCat() {
+//     cats.pop()
+// }
+
+// function destructivelyRemoveFirstCat() {
+//     cats.shift()
+// }
+
+// function appendCat() {
+//     return [...cats, 'Broom']
+// }
+
+// function  prependCat() {
+//     return ['Arnold', ...cats]
+// }
+
+// function  removeFirstCat() {
+//     return cats.slice(1)
+// }
+
+// function removeLastCat() {
+//     return cats.slice(0, cats.length-1)
+// }
+
+
+
+
+
+const cats = ["Milo", "Otis", "Garfield"]
+
+function destructivelyAppendCat() {
+cats.push("Ralph")
+}
+
+function destructivelyPrependCat() {
+    cats.unshift("Bob")
+}
+
+function destructivelyRemoveLastCat() {
+    cats.pop()
+}
+
+function destructivelyRemoveFirstCat() {
+    cats.shift()
+}
+
+function appendCat() {
+   return [...cats, "Broom"]
+}
+
+function prependCat() {
+    return ["Arnold", ...cats]
+}
+
+function removeLastCat() {
+    return cats.slice(0, cats.length-1)
+}
+
+function removeFirstCat() {
+    return cats.slice(1)
+}
